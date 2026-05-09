@@ -4,7 +4,8 @@ Interface Streamlit pour identifier et coter des cartes Pokémon françaises.
 
 Lancement : streamlit run app.py
 """
-
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import time
 import numpy as np
 import streamlit as st
