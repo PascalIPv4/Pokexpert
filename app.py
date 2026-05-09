@@ -12,10 +12,9 @@ import streamlit as st
 from PIL import Image
 
 from config import CONDITIONS, CONFIDENCE_THRESHOLD
-# Remplace l'ancien import qui cherchait le dossier 'modules'
 from card_identifier import CardIdentifier, CardData
-from image_processor import ImageProcessor
-# Ajoute ici les autres classes si nécessaire (ex: OcrResult)
+from image_processor import ImageProcessor, OcrResult
+from price_fetcher import PriceFetcher
 
 # ─────────────────────────────────────────────
 # Configuration Streamlit
